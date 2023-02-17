@@ -1,0 +1,43 @@
+
+main{
+   display: flex;
+   flex-direction: column;
+   height: 40vh;
+   align-items: center;
+   justify-content: center;
+}
+header h1{
+    text-align: center;
+}
+#grupo{
+    display: flex;
+    height:1rem;
+    width: 40rem;
+    margin-bottom: 2rem;
+}
+#grupo_dois{
+    height:1rem;
+    width: 40rem;
+    margin-bottom: 2rem;
+}
+#grupo_tres{
+    height:1rem;
+    width: 40rem;
+    margin-bottom: 2rem;
+}
+#grupo_tres div{
+    margin-bottom: 1rem;
+}
+
+
+.outra_experiencia{
+    display: none;
+}
+
+.outro_formaçao{
+    display: none;
+}
+#grupo_quatro{
+    display: flex;
+    justify-content: space-around;
+}

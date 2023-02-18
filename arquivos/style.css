@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+    width: 60vw;
+    height: auto;
+    padding: 1rem;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+#main_dois {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 30%;
+    padding: 2rem;
+    background-color: rgb(0, 109, 143);
+    margin-bottom: 2rem;
+    color: aliceblue;
+}
+
+#nome_email {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5;
+}
+
+#foto {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+
+}
+
+footer {
+    display: flex;
+    height: 30%;
+    width: 100%; 
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: solid;
+    border-width: 0.5px;
+    margin-bottom: 1rem;
+}
+
+#main_dois p {
+    margin-bottom: 0.5rem;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.titulo_style{
+    color: aliceblue;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height:min-content;
+    font-size: small;
+    padding: 0.1rem;
+    margin-bottom: 1rem;
+}
+.titulo_style span{
+   margin-right: 0.5rem;
+}
+#copy{
+    text-align: center;
+    font-size: 11px;
+}
